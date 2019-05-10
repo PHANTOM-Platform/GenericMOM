@@ -1,0 +1,33 @@
+
+<configuration name="GenericMOM">
+	
+	<login value="bourgos@wings-ict-solutions.eu" />
+	
+	<password value="********" />
+	
+	<ipAddress value="141.58.0.8" />
+	
+	<targetPort target="Repository" value="2777" />
+	
+	<targetPort target="ApplicationManager" value="2778" /> <!-- Application Manager -->
+	
+	<targetPort target="ExecutionManager" value="2781" /> <!-- Execution Manager -->
+	
+	<filepath value = "description" />
+	
+	<source value = "PT" /> 
+	
+	<target value = "MOM" /> <!-- upload mappings to MOM (description folder) -->
+	
+	<componentNetworkFileName value = "Component-Network_time.xml" />
+	
+	<hardwarePlatformFileName value = "Platform-Description.xml" />
+	
+	<!--Address of the monitoring server from which mom performs requests for monitoring metrics-->
+	<mfserveraddress value = "mf.excess-project.eu" />
+	<!--Port of the monitoring server-->
+	<mfserverport value = "3033" />
+	
+	<subscription type="project" value="HPC" />
+	
+</configuration>
